@@ -131,22 +131,22 @@ clr_task_button.place(x=435,y=200)
 
 
 #Button for deleting one task from task_list(ListBox).
-remove_button=Button(root,text="Remove",command=remove,width=15,font="5",bg="yellow")
+remove_button=Button(root,text="Remove",command=remove,width=15)
 remove_button.place(x=200,y=180)
 
 
 #Button to sort the tasks in ascending order.
-asc_sort_button=Button(root,text="Ascending sort",command=asc_order,width=15,font="5",bg="yellow")
+asc_sort_button=Button(root,text="Ascending sort",command=asc_order,width=15)
 asc_sort_button.place(x=200,y=220)
 
 
 #Button to sort the tasks in descending order.
-sort_desc_button=Button(root,text="Sort(DESC)",command=desc_order,width=15,font="5",bg="yellow")
+sort_desc_button=Button(root,text="Sort(DESC)",command=desc_order,width=15)
 sort_desc_button.place(x=200,y=260)
 
 
 #Button to choose a random task from the task_list(ListBox).
-choose_random_button=Button(root,text="Choose Random",command=choose_random,width=15,font="5",bg="yellow")
+choose_random_button=Button(root,text="Choose Random",command=choose_random,width=15)
 choose_random_button.place(x=200,y=300)
 #Button to calculate the number of tasks in task_list(ListBox).
 number_of_tasks_button=Button(root,text="Number of Tasks",command=num_of_task,width=15,font="5",bg="yellow")
